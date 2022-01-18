@@ -9,7 +9,7 @@ int main()
         scanf("%d", &new_n);
         if (new_n >= 0){
             n += new_n;
-            printf("La media è %d\n", n/indice);
+            printf("La media è %f\n", 1.0*n/indice);
             indice++;
             }
         else{
