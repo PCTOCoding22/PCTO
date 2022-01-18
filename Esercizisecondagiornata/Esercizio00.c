@@ -16,6 +16,8 @@ int main ()
      {
          printf("Sei minorenne\n");
      } 
+
+     return(0);
      }
 
 
