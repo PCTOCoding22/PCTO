@@ -20,7 +20,7 @@ int main()
         printf("Inserisci un età \n");
         scanf("%d", &eta);
     }
-     while(eta > 200)
+    while(eta > 200)
     {
         printf("Umano?\n");
         printf("Inserisci un età \n");
