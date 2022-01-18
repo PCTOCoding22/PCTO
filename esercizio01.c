@@ -11,7 +11,7 @@ int main()
     }
     if(eta >= 18){
         if(eta > 170){
-        printf("Sei Umano, comunque maggiorenne\n");
+        printf("Sei Umano? Comunque maggiorenne\n");
     }
     else{
         printf("Sei maggiorenne\n");
