@@ -8,7 +8,7 @@ int main() //INIZIO
     printf("inserisci Numero: ");
     scanf("%d", &numero);
      
-    if(numero>17)
+    if(numero>=18)
     {
         printf("Sei Maggiorenne\n");
     }
