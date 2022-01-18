@@ -20,6 +20,12 @@ int main()
         printf("Inserisci un età \n");
         scanf("%d", &eta);
     }
+     while(eta > 200)
+    {
+        printf("Umano?\n");
+        printf("Inserisci un età \n");
+        scanf("%d", &eta);
+    }
     if(differenza_eta >= 0)
     {
         printf("Sei Maggiorenne!\n");
