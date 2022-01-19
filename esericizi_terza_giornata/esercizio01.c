@@ -13,6 +13,7 @@ int main()
     }
     else 
     {
-        printf("Non sei maggiorenne\n");
+        printf("Non sei maggiore\n");
     }
+    return 0;
 }
