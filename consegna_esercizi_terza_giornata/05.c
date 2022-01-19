@@ -20,7 +20,7 @@ int main()
     }
     else
     {
-        printf("i tuyoi numeri non sono in progressione aritmetica!\n");
+        printf("i tuoi numeri non sono in progressione aritmetica!\n");
     }
     return(0);
 }
