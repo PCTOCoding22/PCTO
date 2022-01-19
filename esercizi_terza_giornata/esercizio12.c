@@ -9,16 +9,16 @@ int main()
     while(count > 1)
     {
         if(x % count !=0){
-        count --;
+        count --;   
     } 
     else
     {
-        printf( "il numero non è primo");
+        printf( "il numero non è primo\n");
        return 0;
     }
     
     }
-   printf("il numero è primo");
+   printf("il numero è primo\n");
 
    return 0;       
 }
