@@ -6,7 +6,7 @@ int main()
     scanf("%f", &temperatura);
     if (temperatura > -273.15){
         float t_k = temperatura + 273.15;
-        float t_f = (9/5)*temperatura + 32;
+        float t_f = (1.8)*temperatura + 32;
         printf("La temperatura in Kelvin è %f, mentre la temperatura in Fahrenheit è %f\n", t_k, t_f);
     }
     else{

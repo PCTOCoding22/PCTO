@@ -9,7 +9,7 @@ int main()
     scanf("%d", &n2);
     printf("Inserisci il terzo numero: ");
     scanf("%d", &n3);
-    if  (abs(n2 - n1) == abs(n3 - n2)) {
+    if  (n2 - n1 == n3 - n2) {
         printf("È una successione.\n");
     }
     else {
