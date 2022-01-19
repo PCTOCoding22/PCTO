@@ -14,7 +14,12 @@ int main()
     printf ("inserire lunghezza terzo lato");
     scanf ("%d", &z);
 
-   
+   if (x<0||y<0||z<0)
+   {
+       printf ("ERRORE!");
+
+       return(0);
+   }
     
     if (x+y>z||x+z>y||y+z>x)
     {
