@@ -1,8 +1,17 @@
 #include <stdio.h>
 
 int main()
-int temperatura in Celsius
-int temperatura in Kelvin
-int temperatura in Fahrenheit
+int temperatura
 printf("inserisci temperatura in Celsius");
 scanf("%d", & )
+
+if (temperatura < -273,15);
+{
+    printf("errore temperatura inferiore a 0");
+}
+else
+{
+    printf("temperatura in Fahrenheit")
+}
+result 0;
+}
