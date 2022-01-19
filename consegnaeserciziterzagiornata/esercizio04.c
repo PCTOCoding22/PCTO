@@ -14,5 +14,5 @@ else
 {
     printf("temperatura in fahrenheit");
 }
-result 0;
+return 0; //end
 }
