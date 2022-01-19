@@ -16,12 +16,17 @@ int main(){
     }
     if( x == y && y == z && z == x){
         printf("il triangolo è equilatero\n");
+        return 0;
+        
+        
     }
-    if( x == y || y == z || z == x){
+    if( x == y || y == z || z == x ){
         printf("il triangolo è isoscele\n");
     }
     else{
         printf("il triangolo è scaleno\n");
     }
+    
+    
     return 0;
     }
