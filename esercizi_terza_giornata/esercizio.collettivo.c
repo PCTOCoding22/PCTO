@@ -15,7 +15,8 @@ int main ()
         if(x % contatore != 0) {
 
             contatore = contatore - 1;
-
+                                                        
+                                                    
         }
         else {
 
