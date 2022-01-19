@@ -1,41 +1,34 @@
 #include <stdio.h>
+
 int main() {
 
-    int numero;
-    int lunghezza;
+    float num = 0;
+    int i = 1;
 
-    float media;
-
-    numero = 0;
-    lunghezza = 0;
-
-
-    while (1) {
+    while(1) {
         
-        printf ("Inserisci un numero: ");
-        scanf("%d",&numero);
+        printf("Inserisci un numero: ");
 
-        if (numero >= 0) {
-           
-           lunghezza++;
+        float num2;
 
-           if (lunghezza == 1) {
+        scanf("%f", &num2);
 
-               media = numero / lunghezza;
-               printf("La media è %f\n", media);
+        if (num2 > 0) {
 
-           } else {
+            num = num + num2;
 
-               numero = numero + numero;
-               printf("%d\n", numero);
+            float media = num/i;
 
-               media = numero / lunghezza;
+            printf("La media è %f\n", media);
 
-               printf("La media è %f\n", media);
-           }
+            i++;
 
+        } else {
+
+            printf("Hai inserito un numero minore di 0\n");
+            return 0;
         }
     }
-    
+
     return 0;
 }
