@@ -26,6 +26,11 @@ int main()//start
         risultato=z-y;
         printf("%d\n", risultato);
     }
+
+     else if(y==0 && x=='/')
+    {
+        printf("accirt");
+    }
     
     else if(x=='/')
     {
@@ -38,6 +43,14 @@ int main()//start
         risultato=z*y;
         printf("%d\n", risultato);
     }
+
+    else if(y==0 && x=='/')
+    {
+        printf("indefinito");
+    }
+
+  
+    
     
     return 0;
 
