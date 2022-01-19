@@ -21,7 +21,7 @@ int main() {
         printf("I 3 numeri non sono in progressione aritmetica\n");
     }
 
-
+ 
 
     return 0;
 }
