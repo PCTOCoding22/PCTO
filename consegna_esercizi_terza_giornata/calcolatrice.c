@@ -44,6 +44,8 @@ int main() {
             } else {
                 float res = (float)x /  (float)y;
                 printf("%f\n", res);
+
+
             }
         }
 
@@ -54,3 +56,7 @@ int main() {
     return 0;
 
 }
+
+
+
+// Matteo Mendicini, Irene, Matilde , Livia
