@@ -84,7 +84,7 @@ int main(int argc, char **argv)
 
 	canvas = generate_new_canvas(size_x, size_y);
 
-
+    
     for (int xcount = 0; xcount < size_x; xcount += 2) {
         for (int ycount = 0; ycount < size_y; ycount++) {
             put_pixel(xcount, ycount, canvas);
@@ -96,6 +96,7 @@ int main(int argc, char **argv)
             delete_pixel(delx, dely, canvas);
         }
     }
+    
 
 
     //inizio secondo es
@@ -109,10 +110,12 @@ int main(int argc, char **argv)
         }
     }
 
+    
+
     for (int chess_x = 0; chess_x < size_x; chess_x+= 2) {
         for (int chess_y = 0; chess_y < size_y; chess_y += 2) {
-            delete_pixel(chess_x + 1, chess_y, canvas);
-            delete_pixel(chess_x, chess_y + 1, canvas);
+            delete_pixel(chess_x, chess_y, canvas);
+            delete_pixel(chess_x, chess_y, canvas);
         }
     }
 
@@ -120,7 +123,7 @@ int main(int argc, char **argv)
 
     //inizio terzo esercizio
 
-
+    
     for (int square_x = 0; square_x < size_x; square_x++) {
         for (int square_y = 0; square_y < size_y; square_y++) {
             if (square_x == 0 || square_x == size_x-1 || square_y == 0 || square_y == size_y-1) {
@@ -140,6 +143,8 @@ int main(int argc, char **argv)
 
     // inizio quarto esercizio
 
+    
+    
     for (int stair_x = 0; stair_x < size_x; stair_x++) {
         for (int stair_y = 0; stair_y < size_y; stair_y++)  {
             if (stair_x <= stair_y) {
@@ -150,6 +155,10 @@ int main(int argc, char **argv)
             }
         }
 
+    
+
 	print_2d_array(canvas);
 	return 0;
 }
+
+//Matteo Mendicini, Irene, Matilde, Livia
