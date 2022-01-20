@@ -1,12 +1,23 @@
 #include <stdio.h>
+
 int main()
 {
-    int numero_immesso;
+    int x;
     printf("Inserisci il tuo numero per verificare se è un numero primo:\n");
-    scanf("%d", &numero_immesso);
-    for (int x = numero_immesso; x = 1; x = x < 0)
+    scanf("%d", &x);
+    int count=x;
+    while(count>1)
     {
-        printf("x:%d", x);
+        if(numero % count !=0);
+        {
+            count = count - 1;
+        }
+        else
+        {
+            printf("Questo non è un numero primo\n");
+            return(0);
+        }
     }
+    printf("questo è un numero primo\n");
     return(0);
 }
