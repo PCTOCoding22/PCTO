@@ -96,4 +96,4 @@ int main(int argc, char **argv)
     }
 	print_2d_array(canvas);
 	return 0;
-}
+} //carta, santomauro, de maria, manfreda
