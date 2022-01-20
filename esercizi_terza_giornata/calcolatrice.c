@@ -7,9 +7,9 @@ int main () {
     int risultato_addizione;
     int risultato_moltiplicazione;
     int risultato_sottrazione;
-    int risultato_divisione;
+    float risultato_divisione;
 
-    printf("Benventx nella calcolatrice, ora scrivi il calcolo che vuo fare inserisci il primo numer: ");
+    printf("Benvenutx nella calcolatrice, ora scrivi il calcolo che vuoi, inserisci il primo numero: ");
     scanf("%d", &x);
     printf("inserisci un operatore: ");
     scanf("\n%c", &z);
@@ -40,7 +40,7 @@ int main () {
                  if(z == '/')
                  {
                      risultato_divisione = x / y;
-                     printf("%d : %d = %d\n\n", x, y, risultato_divisione);
+                     printf("%d : %d = %f\n\n", x, y, risultato_divisione);
                  }
              }
          }
