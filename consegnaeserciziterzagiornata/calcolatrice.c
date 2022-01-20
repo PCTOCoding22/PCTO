@@ -5,7 +5,7 @@ int main()//start
     int z;
     printf("inserisci un numero z: ");
     scanf("\n%d", &z);
-    char x='+';
+    char x;
     printf("inserisci un carattere: ");
     scanf("\n%c", &x);
     int y;
@@ -48,13 +48,8 @@ int main()//start
     {
         printf("indefinito");
     }
-
-  
     
-    
-    return 0;
+     return 0;
 
 }
 //carta, santomauro, de maria, manfreda
-
-
