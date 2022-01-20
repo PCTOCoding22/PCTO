@@ -15,7 +15,6 @@ int main() {
     scanf("%c\n", &uguale);
 
 
-
     if (operator == '+') {
         
         int res = x + y;
@@ -33,23 +32,24 @@ int main() {
 
 
     } else if (operator == ':') {
-
-        
+   
         if (y == 0) {
-            printf("Indefinito\n");
+            printf("https://tinyurl.com/32cwn7sp\n");
+            return 0;
         } else {
             if (x % y == 0) {
                 int res = x / y;
                 printf("%d\n", res);
             } else {
-                float res = (float)x /  (float)y;
+                float res = (float)x / (float)y;
                 printf("%f\n", res);
-
 
             }
         }
 
-
+    } else {
+        printf("https://tinyurl.com/yusmz9y9\n");
+        return 0;
     }
 
     
