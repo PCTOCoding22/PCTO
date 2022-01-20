@@ -1,4 +1,4 @@
-#include <unistd.h>
+#include <unistd.h>             //Gruppo NOI (Matteo Faraoni e Daniel Alvarado Trinidad)
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -78,8 +78,9 @@ void move_pixel(int from_x, int from_y, int to_x, int to_y, canvas_struct *canva
 
 int main(int argc, char **argv)
 {
-	int size_x = 10;
-	int size_y = 11;
+	int size_x = 15;
+	int size_y = 17
+;
     int n= size_x;
 	canvas_struct *canvas;
     
@@ -91,10 +92,10 @@ int main(int argc, char **argv)
         }
     }
     for(int y = 0; y<=size_y-1; y= y+1){
-        for( int x =size_x-n+1; x<=size_x-1; n++){
+        for( int x =n-size_x+1; x<=size_x-1; x++){
         delete_pixel(x, y, canvas);
-	    x++;
         }
+        n++;
     }
      print_2d_array(canvas);
 	return 0;
