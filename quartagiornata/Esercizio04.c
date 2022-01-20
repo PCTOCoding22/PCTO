@@ -85,20 +85,15 @@ int main(int argc, char **argv)
 	canvas_struct *canvas;
 
 	canvas = generate_new_canvas(size_x, size_y);
-	if( x=0)
+	for(int x=0;x<size_x;x++)
     {
-        put_pixel(x,y,canvas);
+        for (int y=0;y<size_y;y++)
+        {
+         put_pixel(x,y,canvas);
+         put_pixel(x,y,canvas);
+        }
+        
     }
-
-    for(int y=0; y<size_y; y++)
-	{
-		for(int x=0; x<size_x; x)
-		{
-          put_pixel(x , y, canvas);
-		}
-      put_pixel( x,y,canvas);
-	}
-     
 	
 	print_2d_array(canvas);
 	return 0;

@@ -84,13 +84,15 @@ int main(int argc, char **argv)
     int y;
 	canvas_struct *canvas;
     canvas = generate_new_canvas(size_x, size_y);
+    
     for(int x=0; x<size_x; x+=2)
     {
         for(int y=0; y<size_y; y+=2)
         {
-            put_pixel(x+1, y ,canvas);
-            put_pixel(x,y+1, canvas);
+            put_pixel(x, y ,canvas);
+            put_pixel(x,y, canvas);
         }
+     
     }
 
 	
