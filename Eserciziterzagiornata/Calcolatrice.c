@@ -31,6 +31,10 @@ int main()
      }
     if(operator==':')
      {
+         if (y==0){
+             printf("Error\n");
+             return 0;
+         }
          res=x/y;
          /*if(x%y !=0)
          { 
@@ -40,6 +44,7 @@ int main()
          }*/
          printf("%f",res);
      }
+     //printf("%f %c %f = %d\n",x, operator, y , uguale, res);
  }
 
 
